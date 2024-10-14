@@ -6,6 +6,7 @@ Tyto poznámky slouží pro studenty praktické části kurzu KMI/UMIN (Umělá 
 1. Organizační záležitosti, Preprocessing, Perceptron
 2. Neuronové sítě a jejich učení
 3. Rozdělení dat, Přeučení a podučení, Normalizace 
+4. Rekurentní neuronové sítě, Předzpracování textu
 
 Další obsah hodin bude doplněn v průběhu semestru.
 
@@ -17,6 +18,7 @@ These notes are for students of the practical part of the KMI/UMIN (Artificial I
 1. Organizational matters, Preprocessing, Perceptron
 2. Neural networks and how to train them
 3. Splitting data for training, Overfitting and underfitting, Data normalization 
+4. Recurrent neural networks, Text preprocessing
 
 Further content of the lessons will be added during the semester.
 
