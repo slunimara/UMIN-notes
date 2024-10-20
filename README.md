@@ -7,6 +7,7 @@ Tyto poznámky slouží pro studenty praktické části kurzu KMI/UMIN (Umělá 
 2. Neuronové sítě a jejich učení
 3. Rozdělení dat, Přeučení a podučení, Normalizace 
 4. Rekurentní neuronové sítě, Předzpracování textu
+5. Konvoluční neuronové sítě, Transfer learning
 
 Další obsah hodin bude doplněn v průběhu semestru.
 
@@ -19,6 +20,7 @@ These notes are for students of the practical part of the KMI/UMIN (Artificial I
 2. Neural networks and how to train them
 3. Splitting data for training, Overfitting and underfitting, Data normalization 
 4. Recurrent neural networks, Text preprocessing
+5. Convolutional neural networks, Transfer learning
 
 Further content of the lessons will be added during the semester.
 
