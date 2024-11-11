@@ -9,6 +9,7 @@
 	- hyper-parametry sítě – architekturu modelu, rychlost učení a složitost modelu (počet vrstev a jejich velikost), $\dots$
 - [ladění hyperparametrů základní informace](https://aws.amazon.com/what-is/hyperparameter-tuning/)
 - [Jak na to v Keras?](https://keras.io/guides/keras_tuner/) alternativně [Keras Tuner](https://www.tensorflow.org/tutorials/keras/keras_tuner)
+
 ## Overfitting a underfitting
 - **Underfitting** (podučení) znamená, že model je příliš jednoduchý a špatně modeluje trénovací data (tj. nemá naučené relevantní vzory)
 - **Overfitting** (přeučení) znamená, že model příliš přesně modeluje trénovací data a v důsledku toho špatně generalizuje
@@ -17,6 +18,7 @@
 - nejlepším řešením je získat více dat pro trénovaní – to však není v některých případech možné 
 - druhým nejlepším řešením je model nějak omezit (například tak, aby se naučil jen vhodné vzory z dat)
 	- proces při kterém se snažíme zamezit přeučení se nazývá **regularizace**
+
 ### Techniky regularizace
 - **early stopping** – metoda, při které je učení zastaveno před tím než se síť začne učit nevhodným vzorům
 - najít **kompromis mezi velikostí** sítě – sítě, které jsou malé se těžce naučí komplexní vzory, naopak velké sítě se naučí i nedůležité vzory
@@ -32,6 +34,7 @@
 		- většinou v rozmezí od $0.2$ do $0.5$
 	- při testování je pak každý vstup vynásoben parametrem **dropout rate**
 	- pozor! přidání dropout vrstvy může zlepšit generalizaci, ale může také zvýšit potřebu přidání více neuronů do vrstvy a dobu tréninku
+
 ## Rozdělení dat
 - proč rozdělovat data na trénovací, ověřovací a testovací?
 	- proč nerozdělovat jen na trénovací a testovací?
@@ -47,11 +50,13 @@
 	- berte to však s rezervou, pokud jste si jistí, že k úniku informací nedojde (neprovádíte nějakou hyper-optimalizaci na základě testovacích dat), klidně použijte pouze dvě množiny
 - pokud jsme spokojeni s hyper-parametry sítě a s výkonnosti modelu nad ověřovacími daty, můžeme model natrénovat nad sjednocením trénovacích a ověřovacích dat a následně změřit jeho výkonnost nad testovacími daty
 - po získání konečných hyper-parametrů získáme výsledný model tím, že natrénujeme model na základě všech dat
+
 ### Hold-Out validation
 - nejjednodušší rozdělení kdy, data jsou rozdělena 2 až 3 množiny 
 - 80% trénovací data / 20% testovací (podle [Paretova principu](https://en.wikipedia.org/wiki/Pareto_principle)) případně 60% / 20% / 20% nebo 64% / 16% / 20% 
 - obecně záleží na datech
 - tento způsob rozdělení trpí tím, že někdy ověřovací a testovací množiny mají příliš málo prvků a tím pádem je výsledný model nepoužitelný (příliš malá generalizace nebo podučení)
+
 ### Cross-validation
 - jak funguje?
 	1. rozdělíte data na K oddílů stejné velikosti
@@ -68,6 +73,7 @@
 - pozor na časová data – zde není vhodné data míchat, zároveň testovací data by měla obsahovat časově novější informace
 	- pro řešení problému založených na sekvenčních datech se si ukážeme RNN
 - snažte se aby ověřovací a trénovací množiny byly disjunktní – zamezíme tím přeučení
+
 ## Škálování a normalizace
 - není dobré vkládat do NN čísla, která jsou "velká" ( víceciferná celá čísla) nebo data vícero jednotek (např. vybrané atributy pro učení budou počet ložnic a velikost domu v $m^2$) a různých rozmezí (např. jeden atribut v rozmezí 0-1 a druhý v rozmezí 100-200), protože to může dělat problém při konvergenci sítě
 - **škálování** spočívá v tom, že se hodnoty atributů zavedou do předem definovaného rozsahu (například do intervalu $< 0, 1 >$)

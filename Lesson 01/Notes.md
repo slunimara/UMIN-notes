@@ -7,6 +7,7 @@
 - téma musí být schválené mnou
 - konzultace / prezentace tématu v období zápočtového týdne a chvíli před ním
 - termín – v zápočtovém týdnu (nebo chvíli předním)
+
 ## Doporučené materiály a knížky
 - materiály doc. Konečného ([skripta](http://phoenix.inf.upol.cz/~konecnja/vyuka/2024W/UMIN.html), [prezentace z předchozího roku](http://phoenix.inf.upol.cz/~konecnja/vyuka/2023W/UMIN.html))
 - materiály doc. Outraty ([slidy](http://outrata.inf.upol.cz/courses/mldm/mldm.pdf) předmětu **Machine learning a data mining 1**)
@@ -18,9 +19,11 @@
 - youtube.com/@3blue1brown
 - colah.github.io
 - V průběhu roku budu doplňovat. Pokud máte nějaké doporučení napište mi nebo prokonzultujte se mnou.
+
 ## Náplň hodiny
 - jak přistupovat k řešení problému z oblasti umělé inteligence?
 	- například: [CRISP-DM](https://www.datascience-pm.com/crisp-dm-2/)
+
 ### Preprocessing
 Předtím než data budeme moci plně využít potřebujeme je co nejlépe připravit na zpracování. Tomuto kroku se říká předzpracování dat (Data preprocessing). 
 - Data mohou být nekonzistentní. Mohou obsahovat chybějící nebo nesmyslné hodnoty. 
@@ -54,6 +57,7 @@ Předtím než data budeme moci plně využít potřebujeme je co nejlépe přip
 - například klasifikace nevyžádané pošty ([SPAM / HAM klasifikace](https://www.kaggle.com/code/jacquelinehong/spam-ham-classifier)) nebo klasifikace recenzí filmů jako pozitivních nebo negativních
 
 **Regrese** – predikce **spojitého** cílového atributu, například [odhad ceny domu na základě údajů o nemovitostech](https://www.kaggle.com/code/mahyamahjoob/real-estate-valuation-using-linear-regression), atd.
+
 ### Perceptron 
 - vysvětlení v Jupyter Notebooku ke cvičení 01.
 - někdy také neuron, linear unit
@@ -61,6 +65,7 @@ Předtím než data budeme moci plně využít potřebujeme je co nejlépe přip
 	- kde y je výstup sítě
 	- x je vstup, který je vynásobený váhovým vektorem w (sklon přímky)
 	- b je bias (průsečík přímky)
+
 ### Praktický příklad neuronu
 - jednoduchá síť vytvořená pomocí knihovny Keras
 ```python

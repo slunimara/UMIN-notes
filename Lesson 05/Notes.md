@@ -18,6 +18,7 @@
 	- filtry obsahují konkrétní vzory ze vstupních dat (například: čárka, kolečko, atd.)
 	- response map filtru nad vstupem popisuje odezvu vzoru filtru nad různými oblastmi obrázku
 - [Vizualizace CNN](https://poloclub.github.io/cnn-explainer/), [Vizualizace CNN u ručně psaných číslic](https://adamharley.com/nn_vis/cnn/3d.html)
+
 ### Konvoluční vrstvy
 Konvoluční vrstvy mají dva základní parametry: 
 	- velikost posuvného okna

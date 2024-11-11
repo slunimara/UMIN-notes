@@ -8,6 +8,7 @@
 	- typy sítí: many-to-one, one-to-many, many-to-many
 
 <img src="https://deeplearningmath.org/images/type_sequence_Modeling.png" style="background-color:white;padding: 1rem" />
+
 ## Práce s textem
 - pokud chceme pracovat s textem, tak jej do sítě nikdy nedáváme jako řetězce znaků
 - místo toho přetvoříme text na vektory, to lze dvěma způsoby
@@ -31,6 +32,7 @@
 		- v Keras [Embedding layer](https://keras.io/api/layers/core_layers/embedding/)
 		- více se o tom budeme bavit za pár týdnů
 - Zdroje: [Různé knihovny pro tokenizaci a problémy při zpracování textu](https://neptune.ai/blog/tokenization-in-nlp), [IBM - word embedding](https://www.ibm.com/topics/word-embeddings)
+
 ## Rekurentní neuronové sítě
 - dopředné sítě zpracovávají každý vstup nezávisle na ostatních
 	- pokud chceme síti předložit sekvenční data (například: recenzi filmu)
@@ -58,6 +60,7 @@
 - výhody: zabraňuje problému mizejícího gradientu, dokáže zpracovávat dlouhodobé závislosti
 - nevýhody: výpočetní náročnost, náchylnost k přeučení
 - má mnoho aplikací: klasifikace a predikce sekvenčních dat – ručně psané číslice, rozpoznávání řeči, překlad jazyka, hraní videoher, ...
+
 #### Architektura LSTM
 - jednoduchý popis architektury:
 	- **cell state** $c$  – dlouhodobá paměť

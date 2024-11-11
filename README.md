@@ -9,6 +9,7 @@ Tyto poznámky slouží pro studenty praktické části kurzu KMI/UMIN (Umělá 
 4. Rekurentní neuronové sítě, Předzpracování textu
 5. Konvoluční neuronové sítě, Transfer learning
 6. Seq2seq modely, Attention, Transformery, Generativní modely (VAE, GAN)
+7. Word2Vec, Zpracování přirozeného jazyka
 
 Další obsah hodin bude doplněn v průběhu semestru.
 
@@ -23,6 +24,7 @@ These notes are for students of the practical part of the KMI/UMIN (Artificial I
 4. Recurrent neural networks, Text preprocessing
 5. Convolutional neural networks, Transfer learning
 6. Seq2seq models, Attention, Transformers, Generative models (VAE, GAN)
+7. Word2Vec, Natural Language Processing
 
 Further content of the lessons will be added during the semester.
 
