@@ -23,7 +23,7 @@
 - nebo kompletně jiné způsoby zmenšení modelu – [LoRA](https://hf.co/papers/2106.09685)
 - zamezení **halucinace** modelu – situace, kdy si model předloží nesprávné nebo zavádějící informace
 - No-code / low-code tvorba aplikací a modelů AI
-	- služby jako [Hugging Face AutoTrain](https://huggingface.co/autotrain)
+	- služby jako [Hugging Face AutoTrain](https://huggingface.co/autotrain)
 - ekologické otázky z důvodu potřeby obrovského množství energie
 	- poslední generace grafických karet zaznamenaly sice obrovský skok ve výkonu, ale za cenu zvýšení spotřeby
 	- tvorba nových jaderných elektráren – [Google, Microsoft a Amazon](https://www-theguardian-com.translate.goog/technology/2024/oct/15/google-buy-nuclear-power-ai-datacentres-kairos-power?_x_tr_sl=en&_x_tr_tl=cs&_x_tr_hl=cs&_x_tr_pto=sc) 
@@ -44,7 +44,7 @@
 
 - **GPT (Generative Pre-trained Transformer):**
 	- **Architektura:** Decoder-only
-	- **Trénování:** Autoregresivně  – predikce následující hodnoty na základě předchozích hodnot
+	- **Trénování:** Autoregresivně – predikce následující hodnoty na základě předchozích hodnot
 	- **Cíl:** Kauzální souvislé modelování jazyka – Causal Language Modeling (CLM)
 	- **Silná stránka:** Vynikající pro úlohy generování textu.
 	- **Omezení:** Problémy s úlohami vyžadujícími obousměrný kontext.
@@ -61,7 +61,7 @@
 - **XLNet:**
 	- **Architektura:**  Transformer využívající permutačního přístupu (využívá poznatků z BERT), navíc obsahuje dva typy attention mechanismů
 	- **Trénování:** Trénování probíhá podobně jak u BERT až na rozdíl v tom, že predikce masek je na sobě závislá. Masky predikuje v jeho vybraném pořadí. 
-	- **Cíl:** Pemutované Masked Language Modeling (MLM)
+	- **Cíl:** Permutované Masked Language Modeling (MLM)
 	- **Silná stránka:** Lepší modelování dlouhých závislostí a využití kontextu ve srovnání s BERT
 	- **Omezení:** Složitější trénink; vyžaduje větší výpočetní zdroje.
 
@@ -70,7 +70,7 @@
 	- **Trénování:** Kodér poškodí text (třeba maskou) a Dekodér se jej snaží zrekonstruovat
 	- **Cíl:** Autoenkodér se snaží odstranit šum (rekonstrukce poškozených vstupů).
 	- **Silná stránka:** Vynikající pro generativní úlohy (např. sumarizaci).
-	- **Omezení:** Může být příliš náročný pro jednodušší klasifikační úlohy. Dá se uvažovat jako spojení (zoběcnění) nad modely jako BERT a GPT.
+	- **Omezení:** Může být příliš náročný pro jednodušší klasifikační úlohy. Dá se uvažovat jako spojení (zobecnění) nad modely jako BERT a GPT.
 ## Úlohy modelů
 - **Masked Language Modeling (MLM):** Používá se v BERT a jeho variantách. Podskupina vstupních tokenů je maskována a model je predikuje.
 	- **Pros:** Využívá obousměrný kontext.
@@ -95,6 +95,7 @@
 | Sumarizace           | BART / T5                           |
 | Odpovídání na otázky | BERT / RoBERTa                      |
 | Generování kódů      | Codex (varianta GPT-3)              |
+
 ## Etikcké a právní otázky umělé inteligence
 - velmi široké a pokrývají různé oblasti od technických až po společenské
 - **Human-centered design (HCD)** – přístup tvorby systémů, kde na první místě je uživatel (obecně člověk)

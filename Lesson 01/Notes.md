@@ -13,12 +13,20 @@
 - materiály doc. Outraty ([slidy](http://outrata.inf.upol.cz/courses/mldm/mldm.pdf) předmětu **Machine learning a data mining 1**)
 - [kurzy Kaggle](https://www.kaggle.com/learn)
 	- budu na ně průběžně odkazovat
+	- velmi doporučuji využít soutěže, které jsou pořádány jak velkými firmami o hodnotné ceny, tak komunitou :)
+	- obsahuje spoustu návodů, modelů a datasetů
+- [kurzy od huggingface](https://huggingface.co/learn)
+	- stránka dále obsahuje velké množství modelů pro okamžité využití či fine-nuning nebo datasety k použití
 - Kniha: The StatQuest Illustrated Guide To Machine Learning, Josh Starmer
-- Kniha: Data Science from Scratch: First Principles with Python, 2nd Edition, Joel Grus
 - Kniha: Deep Learning with Python, 2nd Edition, François Chollet
 - youtube.com/@3blue1brown
 - colah.github.io
-- V průběhu roku budu doplňovat. Pokud máte nějaké doporučení napište mi nebo prokonzultujte se mnou.
+- Velmi doporučuji videa od IBM na [@IBMTechnology](https://www.youtube.com/@IBMTechnology) a jejich blog [IBM Topics](https://www.ibm.com/topics)
+- Amazon Web Services některá témata také pěkně popsána
+- [Keras.io](Keras.io) knihovna, kterou budeme v průběhu semestru používat
+	- všechno co potřebujete najdete v dokumentaci nebo v obrovském množství [návodů](keras.io/guides/)
+	- chtěl bych také vyzdvihnout [ukázky kódů](https://keras.io/examples/) pro spoustu témat
+ - V průběhu roku budu doplňovat. Pokud máte nějaké doporučení napište mi nebo prokonzultujte se mnou.
 
 ## Náplň hodiny
 - jak přistupovat k řešení problému z oblasti umělé inteligence?
