@@ -11,6 +11,7 @@ Tyto poznámky slouží pro studenty praktické části kurzu KMI/UMIN (Umělá 
 6. Seq2seq modely, Attention, Transformery, Generativní modely (VAE, GAN)
 7. Word2Vec, Zpracování přirozeného jazyka
 8. Současný a možný budoucí stav AI, Nejpoužívanější transformer modely, Etika v AI
+9. Reinforcement Learning, RLHF, Deep RL
 
 Další obsah hodin bude doplněn v průběhu semestru.
 
@@ -27,6 +28,7 @@ These notes are for students of the practical part of the KMI/UMIN (Artificial I
 6. Seq2seq models, Attention, Transformers, Generative models (VAE, GAN)
 7. Word2Vec, Natural Language Processing
 8. State-of-art AI and transformers, Possible future of AI, AI Ethics
+9. Reinforcement Learning, RLHF, Deep RL
 
 Further content of the lessons will be added during the semester.
 
