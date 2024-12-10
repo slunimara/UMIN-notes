@@ -12,6 +12,7 @@ Tyto poznámky slouží pro studenty praktické části kurzu KMI/UMIN (Umělá 
 7. Word2Vec, Zpracování přirozeného jazyka
 8. Současný a možný budoucí stav AI, Nejpoužívanější transformer modely, Etika v AI
 9. Reinforcement Learning, RLHF, Deep RL
+10. Evoluční algoritmy
 
 Další obsah hodin bude doplněn v průběhu semestru.
 
@@ -29,6 +30,7 @@ These notes are for students of the practical part of the KMI/UMIN (Artificial I
 7. Word2Vec, Natural Language Processing
 8. State-of-art AI and transformers, Possible future of AI, AI Ethics
 9. Reinforcement Learning, RLHF, Deep RL
+10. Evolutionary algorithm
 
 Further content of the lessons will be added during the semester.
 
